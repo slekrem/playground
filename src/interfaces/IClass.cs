@@ -12,7 +12,7 @@ namespace playground.interfaces
         
         string Name { get; }
         
-        IClass BaseType { get; }
+        IImplementation BaseType { get; }
         
         IEnumerable<IInterface> Interfaces { get; }
         
