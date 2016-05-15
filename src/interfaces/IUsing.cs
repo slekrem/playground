@@ -2,6 +2,6 @@ namespace playground.interfaces
 {
     public interface INamespace 
     {
-        string NamespaceName { get; set; }
+        string NamespaceName { get; } = nameof(playground.interfaces)
     }
 }
