@@ -18,7 +18,7 @@ namespace playground
         
         IEnumerable<IProperty> Properties { get; }
         
-        IConstructor Constructor { get; }
+        IEnumerable<IConstructor> Constructor { get; }
         
         IEnumerable<Func<T>> Functions { get; }
         
