@@ -6,11 +6,11 @@ namespace playground
         
         IEnumerable<IUsing> Usings { get; }
         
-        AccessModifier AccessModifier { get; }
+        IAccessModifier AccessModifier { get; }
         
-        KeyIdentifier KeyIdentifier { get; }
+        bool IsAbstarct { get; }
         
-        string BaseType { get; }
+        IClass BaseType { get; }
         
         IEnumerable<IInterface> Interfaces { get; }
         
