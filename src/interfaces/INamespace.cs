@@ -1,4 +1,4 @@
-namespace playground
+namespace playground.interfaces
 {
     public interface INamespace 
     {
