@@ -1,7 +1,7 @@
-namespace playground
+namespace playground.interfaces
 {
     public interface INamespace 
     {
-        string Namespace { get; set; }
+        string NamespaceName { get; set; }
     }
 }
