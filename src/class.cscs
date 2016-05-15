@@ -1,0 +1,4 @@
+@model IClass
+
+@Model.BuildNamespace()
+    .BuildClass();
