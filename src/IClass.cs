@@ -10,6 +10,8 @@ namespace playground
         
         bool IsAbstarct { get; }
         
+        string Name { get; }
+        
         IClass BaseType { get; }
         
         IEnumerable<IInterface> Interfaces { get; }
