@@ -4,6 +4,6 @@ namespace playground.interfaces
     {
         IEnumerable<IUsing> Usings { get; set; }
         
-        IClass Class { get; set; }
+        IImplementation Implementation { get; set; }
     }
 }
