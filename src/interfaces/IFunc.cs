@@ -1,7 +1,7 @@
 namespace com.smerkel.playground.blueprint.interfaces
 {
-    public interface IUsing
+    public interface IFunc
     {
-        string UsingName { get; }
+        
     }
 }

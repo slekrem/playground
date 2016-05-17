@@ -1,11 +1,11 @@
-namespace playground.interfaces
+namespace com.smerkel.playground.blueprint.interfaces
 {
     public interface IInterface
     {
         IAccessModifier AccessModifier { get; }
-        
+
         string InterfaceName { get; }
-        
-        IEnumerable<IInterface> Interfaces { get; }
+
+        //IEnumerable<IInterface> Interfaces { get; }
     }
 }

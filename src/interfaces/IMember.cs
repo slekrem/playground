@@ -1,15 +1,15 @@
-namespace playground.interfaces
+namespace com.smerkel.playground.blueprint.interfaces
 {
     // protected string _member;
     // private string _member = "value";
-    public interface IMember<T>
+    public interface IMember
     {
         IAccessModifier MemberAccessModifier { get; }
-        
-        IType<T> Type { get; }
-        
+
+        //IType<T> Type { get; }
+
         string MemberName { get; }
-        
-        ITypeValue<T> { get; }
+
+        //ITypeValue<T> TypeValue { get; }
     }
 }

@@ -1,6 +1,5 @@
-namespace playground.interfaces
+namespace com.smerkel.playground.blueprint.interfaces
 {
-    // public; protected; internal; private
     public interface IAccessModifier 
     {
         string AccessModifier { get; }

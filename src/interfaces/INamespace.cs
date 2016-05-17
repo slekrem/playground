@@ -1,9 +1,11 @@
-namespace playground.interfaces
+namespace com.smerkel.playground.blueprint.interfaces
 {
-    public interface INamespace 
+    //using System.Collections.Generic;
+
+    public interface INamespace
     {
-        IEnumerable<IUsing> Usings { get; set; }
-        
+        //IEnumerable<IUsing> Usings { get; set; }
+
         IImplementation Implementation { get; set; }
     }
 }

@@ -1,2 +1,5 @@
 project.lock.json
 src/interfaces/obj
+src/interfaces/bin
+launch.json
+tasks.json

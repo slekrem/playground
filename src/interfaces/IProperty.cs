@@ -1,16 +1,15 @@
-namespace playground.interfaces
+namespace com.smerkel.playground.blueprint.interfaces
 {
-    // public type PropertyName { get; set; } = 
     public interface IProperty
     {
         IAccessModifier PropertyAccessModifier { get; }
-        
-        IType PropertyType { get; }
-        
+
+        //IType PropertyType { get; }
+
         string PropertyName { get; }
-        
-        IPropertyGetter Getter { get; }
-        
-        IPropertySetter Setter { get; }
+
+        //IPropertyGetter Getter { get; }
+
+        //IPropertySetter Setter { get; }
     }
 }
