@@ -1,6 +1,6 @@
 namespace com.smerkel.playground.blueprint.interfaces
 {
-    //using System.Collections.Generic;
+    using System.Collections.Generic;
 
     public interface INamespace
     {

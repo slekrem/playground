@@ -1,5 +1,7 @@
 namespace com.smerkel.playground.blueprint.interfaces
 {
+    using System.Collections.Generic;
+
     public interface IInterface
     {
         IAccessModifier AccessModifier { get; }
