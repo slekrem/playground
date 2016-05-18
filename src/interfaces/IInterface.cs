@@ -6,6 +6,6 @@ namespace com.smerkel.playground.blueprint.interfaces
 
         string InterfaceName { get; }
 
-        //IEnumerable<IInterface> Interfaces { get; }
+        IEnumerable<IInterface> Interfaces { get; }
     }
 }

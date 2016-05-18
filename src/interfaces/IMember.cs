@@ -6,10 +6,10 @@ namespace com.smerkel.playground.blueprint.interfaces
     {
         IAccessModifier MemberAccessModifier { get; }
 
-        //IType<T> Type { get; }
+        IType Type { get; }
 
         string MemberName { get; }
 
-        //ITypeValue<T> TypeValue { get; }
+        ITypeValue TypeValue { get; }
     }
 }

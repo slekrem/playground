@@ -4,7 +4,7 @@ namespace com.smerkel.playground.blueprint.interfaces
 
     public interface INamespace
     {
-        //IEnumerable<IUsing> Usings { get; set; }
+        IEnumerable<IUsing> Usings { get; set; }
 
         IImplementation Implementation { get; set; }
     }

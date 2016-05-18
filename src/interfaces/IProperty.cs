@@ -4,12 +4,12 @@ namespace com.smerkel.playground.blueprint.interfaces
     {
         IAccessModifier PropertyAccessModifier { get; }
 
-        //IType PropertyType { get; }
+        IType PropertyType { get; }
 
         string PropertyName { get; }
 
-        //IPropertyGetter Getter { get; }
+        IPropertyGetter Getter { get; }
 
-        //IPropertySetter Setter { get; }
+        IPropertySetter Setter { get; }
     }
 }
